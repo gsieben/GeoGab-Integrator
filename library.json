@@ -1,0 +1,26 @@
+{
+  "name": "GeoGab Integrator",
+  "version": "1.0.0",
+  "description": "Calculates the average of the last X numbers of an endless number sequence. (Keyword: smoothing, integration, statistics, increase of precession)",
+  "keywords": ["integral", "average", "sensors", "sensor data", "smoothing", "precession"],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/gsieben/GeoGab-Integrator.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Gabriel A. Sieben",
+      "email": "gsieben@geogab.net",
+      "url": "http://www.sieben.cl",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "http://www.geogab.net",
+  "dependencies": {
+  },
+  "frameworks": "arduino",
+  "platforms": ["espressif8266" , "espressif32"]
+}
