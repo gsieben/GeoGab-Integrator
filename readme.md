@@ -3,6 +3,8 @@
 # Gabriel A. Sieben (Physicist)
 Here is a little code I wrote for my HomeDev Smarthings projects. I thought it could be useful for others too. Have fun. Gabriel :)
 
+# Not yet released
+
 # Integrator
 This elegant, fast and simple function calculates the arithmetic mean (average) of sequentially coming numbers over a range specified by the programmer. For example, the average of the last 50 numbers of a non-terminating number sequence is formed. The physicist speaks here of a smoothing of the data or of a filter.
 
