@@ -2,7 +2,7 @@
  * @file Integrator.cpp
  * @author Gabriel Sieben gsieben@geogab.net
  * @brief 
- * @version 1.0.1
+ * @version 1.0.2
  * @date 2021-02-11
  * 
  * @copyright Copyright (c) 2021
