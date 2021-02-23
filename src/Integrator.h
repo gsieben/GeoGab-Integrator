@@ -2,19 +2,19 @@
  * @file Integrator.h
  * @author your name (you@domain.com)
  * @brief 
- * @version 1.0.3
+ * @version 1.0.1
  * @date 2021-02-11
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef Integrator_h
-#define Integrator_h
+#ifndef GeoGabIntegrator_h
+#define GeoGabIntegrator_h
 
 #include <Arduino.h> 
 #include <vector> 
 
-#define INTEGRATOR_VERSION "1.0.3"
+#define INTEGRATOR_VERSION "1.0.1"
 
 /*!
  * @brief GeoGab Integrator: This elegant, fast and simple function averages sequentially coming numbers over a range specified by the programmer. 

@@ -2,17 +2,16 @@
  * @file Integrator.cpp
  * @author Gabriel Sieben gsieben@geogab.net
  * @brief 
- * @version 1.0.3
+ * @version 1.0.1
  * @date 2021-02-11
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-#include <integrator.h>
+#include <GeoGabIntegrator.h>
 
 /**
- * Next Version Features:
- * Try to use auto
+ * Next Version Features: Different variable size
  */
 
 /*!
@@ -94,7 +93,7 @@ void Integrator::printall(){
     Serial.printf("First Fill Mode:\t%s\r\n", FlagArrayNotFull ? "true" : "false");
     Serial.printf("Current Result:\t\t%d\r\n",Average);
     Serial.printf("Current Slot:\t\t%d\r\n",ActualSlotIndex);
-    Serial.printf("Total:\t\t\t%d\r\n",SumTotal);
+    Serial.printf("Total:\t\t\t%llu\r\n",SumTotal);
     Serial.print("Version:\t\t");
     Serial.println(INTEGRATOR_VERSION);
     Serial.println("Array Content:");
