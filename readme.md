@@ -1,6 +1,6 @@
 ![GeoGab Logo](./images/GeoGab.svg)
 
-# Gabriel A. Sieben (Physicist)
+#### Gabriel A. Sieben (Physicist)
 Here is a little code I wrote for my HomeDev Smarthings projects. I thought it could be useful for others too. Have fun. Gabriel :)
 
 # Not yet released
