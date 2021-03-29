@@ -2,7 +2,7 @@
  * @file Integrator.cpp
  * @author Gabriel Sieben gsieben@geogab.net
  * @brief 
- * @version 1.0.2
+ * @version 1.0.3
  * @date 2021-02-11
  * 
  * @copyright Copyright (c) 2021
@@ -18,7 +18,7 @@
  * @brief When creating an object of this method, the parameter defines the size of the array. The average is formed over all elements of this array. 
  * @parm Array size
  */
-Integrator::Integrator(uint16 size) : SizeOfStack (size), DataArray (size)  {         // Constructor: e.g. Integrator integrator(20);
+Integrator::Integrator(uint16_t size) : SizeOfStack (size), DataArray (size)  {         // Constructor: e.g. Integrator integrator(20);
 }
 
 /*!
@@ -26,7 +26,7 @@ Integrator::Integrator(uint16 size) : SizeOfStack (size), DataArray (size)  {   
  * @par Value witch will be added. The oldest value will be droped at the same moment. 
  * @return The average over all values in the array. 
  */
-uint32 Integrator::add(uint32 wert) {
+uint32_t Integrator::add(uint32_t wert) {
   if (FlagArrayNotFull) {                               // Flag=ture once the Array it not filled
     SumTotal+=wert;                                     // Add the value to the total sum. As the Sum is a 8bit variable (uint64) we need 4.294.967.296 4bit variables (uint) with a #ffffffff to overflow the total variable. So no need to worry.
     Average=((float)SumTotal/(ActualSlotIndex+1))+0.5;  // Divide by the amount of values and round correctly
@@ -50,7 +50,7 @@ uint32 Integrator::add(uint32 wert) {
  * @brief Returns the actual value
  * @return I of all numbers.
  */
-uint32 Integrator::value(){
+uint32_t Integrator::value(){
   return Average;
 }
 
@@ -58,7 +58,7 @@ uint32 Integrator::value(){
  * @brief Request the size of the vector (amount of values which will be integratet.)
  * @return Size / Amount of values
  */
-uint16 Integrator::size(){
+uint16_t Integrator::size(){
   return SizeOfStack;
 }
 
@@ -76,7 +76,7 @@ void Integrator::reset(){
  * @param job 
  * @return Error Code
  */
-uint8 Integrator::error(bool job) {
+uint8_t Integrator::error(bool job) {
   // job: true queries, false deletes, default is true;
   if (job) return FlagError;
   FlagArrayNotFull=false;

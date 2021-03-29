@@ -23,10 +23,9 @@ This feature is great for smoothing sensor data to make the results more accurat
 
 # Instruction
 ## Create an object of the method Integrator: 
-`Integrator integrator([Places], [width]);`
+`Integrator integrator([Places]);`
 
 ``[Places]``: Number of values over which to integrate
-``[width]``: width of the values: uint8_t, uint16_t or uint32_t
 
 ## Add a value:
 `average=integrator.add(value);`
