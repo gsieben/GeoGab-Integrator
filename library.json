@@ -1,6 +1,6 @@
 {
   "name": "GeoGab-Integrator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Calculates the average of the last X numbers of an endless number sequence.",
   "keywords": ["integral", "average", "sensors", "sensor data", "smoothing", "precession"],
   "repository":
